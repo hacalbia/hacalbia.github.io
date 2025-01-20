@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="he"> <!-- Specifying the language as Hebrew -->
   <head>
     <style>
       .topnav {
@@ -19,13 +19,13 @@
         background-color: #ddd;
         color: black;
       }
-      .topnav span {
-        float: right;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
+      .topnav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      .topnav li {
+        display: inline;
       }
     </style>
     <meta charset="UTF-8">
@@ -33,7 +33,7 @@
     <title>אתר הכלביה - תלמידים</title>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script>
-      $(function(){
+      $(function() {
         $("#nav-placeholder").load("nav.html");
       });
     </script>
