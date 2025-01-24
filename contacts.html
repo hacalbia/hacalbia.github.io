@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="he"> <!-- Specifying the language as Hebrew -->
+  <head>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+       border: 1px solid #dddddd;
+       text-align: center;
+       padding: 8px;
+        font-weight: bold;
+      }
+
+      tr:nth-child(even) {
+       background-color: #dddddd;
+      }
+
+      .topnav {
+        background-color: #abb57d;
+        overflow: hidden;
+        direction: rtl; /* Right to left direction */
+      }
+      .topnav a {
+        float: right;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Arial', 'Helvetica', sans-serif;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .topnav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      .topnav li {
+        display: inline;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אתר הכלביה - תלמידים</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $(function() {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+    <!--<h1 style="text-align: center;">לוח תורנויות</h1>-->
+    <hr>
+    <table>
+      <tr>
+        <th>כיתה</th>
+        <th>מספר טלפון</th>
+        <th>שם האחראי/ת</th>
+        <th>תפקיד</th>
+      </tr>
+      <tr>
+        <td>מורה</td>
+        <td>0544370124</td>
+        <td>מעין אוליאל</td>
+        <td>אחראית כלביה ראשית</td>
+      </tr>
+      <tr>
+        <td>י</td>
+        <td>0544233831</td>
+        <td>פלג עוזרי</td>
+        <td>אחראי התנהלות כללית</td>
+      </tr>
+      <tr>
+        <td>י</td>
+        <td>0548314750</td>
+        <td>ירדן לוי</td>
+        <td>אחראית התנהלות כללית</td>
+      </tr>
+      <tr>
+        <td>י</td>
+        <td>0548314750</td>
+        <td>ירדן לוי</td>
+        <td>אחראית תורנות והחלפות</td>
+      </tr>
+      <tr>
+        <td>י</td>
+        <td>0522546222</td>
+        <td>בן מארק</td>
+        <td>אחראי לוגיסטיקה, בניה, תחלופה של אוכל וציוד</td>
+      </tr>
+      <tr>
+        <td>י</td>
+        <td>0523458484</td>
+        <td>עילאי עוזר</td>
+        <td>אחראי לוגיסטיקה, בניה, תחלופה של אוכל וציוד</td>
+      </tr>
+      <tr>
+        <td>י</td>
+        <td>0587874725</td>
+        <td>אהוד גליקרמן</td>
+        <td>אחראי לוגיסטיקה, בניה, תחלופה של אוכל וציוד</td>
+      </tr>
+      <tr>
+        <td>י</td>
+        <td>0506652473</td>
+        <td>מאיה גרניקס</td>
+        <td>אחראית מדיה</td>
+      </tr>
+    </table>
+    
+  </body>
+</html>
